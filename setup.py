@@ -6,7 +6,7 @@ from setuptools import setup
 
 
 def fread(filepath):
-    with open(filepath, 'r') as f:
+    with open(filepath, 'r', 'utf-8') as f:
         return f.read()
 
 setup(
